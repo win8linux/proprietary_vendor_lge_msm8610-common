@@ -209,4 +209,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8610/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/lge/msm8610/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/lge/msm8610/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/lge/msm8610/proprietary/bin/sensord:system/bin/sensord
+    vendor/lge/msm8610/proprietary/bin/sensord:system/bin/sensord \
+    vendor/lge/msm8610-common/proprietary/bin/bdaddr_loader:system/bin/bdaddr_loader \
+    vendor/lge/msm8610-common/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/lge/msm8610-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/lge/msm8610-common/proprietary/lib/libatd_corelib.so:system/lib/libatd_corelib.so \
+    vendor/lge/msm8610-common/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
+    vendor/lge/msm8610-common/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so
