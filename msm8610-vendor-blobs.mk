@@ -17,7 +17,6 @@ PRODUCT_COPY_FILES := \
     vendor/lge/msm8610/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/msm8610/proprietary/app/TimeService.apk:system/app/TimeService.apk \
     vendor/lge/msm8610/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/msm8610/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/lge/msm8610/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
@@ -191,7 +190,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8610/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/msm8610/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lge/msm8610/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/lge/msm8610/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/lge/msm8610/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/msm8610/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/msm8610/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
