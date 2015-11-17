@@ -17,9 +17,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/msm8610-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    vendor/lge/msm8610-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/lge/msm8610-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/lge/msm8610-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/lge/msm8610-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
@@ -75,7 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8610-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
-    vendor/lge/msm8610-common/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
@@ -206,26 +203,53 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8610-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/msm8610-common/proprietary/bin/sensord:system/bin/sensord \
     vendor/lge/msm8610-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/lge/msm8610-common/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/lge/msm8610-common/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/lge/msm8610-common/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
-    vendor/lge/msm8610-common/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/lge/msm8610-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lge/msm8610-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/lge/msm8610-common/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/lge/msm8610-common/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/lge/msm8610-common/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
-    vendor/lge/msm8610-common/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    vendor/lge/msm8610-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/msm8610-common/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/lge/msm8610-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/lge/msm8610-common/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/lge/msm8610-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/lge/msm8610-common/proprietary/bin/radish:system/bin/radish \
+    vendor/lge/msm8610-common/proprietary/bin/rfs_access:system/bin/rfs_access \
+    vendor/lge/msm8610-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/lge/msm8610-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/lge/msm8610-common/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
+    vendor/lge/msm8610-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/lge/msm8610-common/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
+    vendor/lge/msm8610-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/lge/msm8610-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/lge/msm8610-common/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
+    vendor/lge/msm8610-common/proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
+    vendor/lge/msm8610-common/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
+    vendor/lge/msm8610-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libloc_xtra.so:system/vendor/lib/libloc_xtra.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
