@@ -109,6 +109,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8610-common/proprietary/lib/libchromatix_hi543_default_video.so:system/lib/libchromatix_hi543_default_video.so \
     vendor/lge/msm8610-common/proprietary/lib/libchromatix_hi543_preview.so:system/lib/libchromatix_hi543_preview.so \
     vendor/lge/msm8610-common/proprietary/lib/libchromatix_hi543_snapshot.so:system/lib/libchromatix_hi543_snapshot.so \
+	    vendor/lge/msm8610-common/proprietary/lib/libchromatix_hi841_common.so:system/lib/libchromatix_hi841_common.so \
+    vendor/lge/msm8610-common/proprietary/lib/libchromatix_hi841_default_video.so:system/lib/libchromatix_hi841_default_video.so \
+    vendor/lge/msm8610-common/proprietary/lib/libchromatix_hi841_preview.so:system/lib/libchromatix_hi841_preview.so \
+    vendor/lge/msm8610-common/proprietary/lib/libchromatix_hi841_snapshot.so:system/lib/libchromatix_hi841_snapshot.so \
     vendor/lge/msm8610-common/proprietary/lib/libchromatix_imx111_common.so:system/lib/libchromatix_imx111_common.so \
     vendor/lge/msm8610-common/proprietary/lib/libchromatix_imx111_default_video.so:system/lib/libchromatix_imx111_default_video.so \
     vendor/lge/msm8610-common/proprietary/lib/libchromatix_imx111_preview.so:system/lib/libchromatix_imx111_preview.so \
@@ -123,12 +127,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8610-common/proprietary/lib/libchromatix_imx219_common.so:system/lib/libchromatix_imx219_common.so \
     vendor/lge/msm8610-common/proprietary/lib/libmmcamera_hi707.so:system/lib/libmmcamera_hi707.so \
     vendor/lge/msm8610-common/proprietary/lib/libmmcamera_hi543.so:system/lib/libmmcamera_hi543.so \
+    vendor/lge/msm8610-common/proprietary/lib/libmmcamera_hi841.so:system/lib/libmmcamera_hi841.so \
     vendor/lge/msm8610-common/proprietary/lib/libmmcamera_imx111.so:system/lib/libmmcamera_imx111.so \
     vendor/lge/msm8610-common/proprietary/lib/libmmcamera_imx119.so:system/lib/libmmcamera_imx119.so \
     vendor/lge/msm8610-common/proprietary/lib/libmmcamera_imx179.so:system/lib/libmmcamera_imx179.so \
     vendor/lge/msm8610-common/proprietary/lib/libmmcamera_imx219.so:system/lib/libmmcamera_imx219.so \
+    vendor/lge/msm8610-common/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
     vendor/lge/msm8610-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/msm8610-common/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
+    vendor/lge/msm8610-common/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/msm8610-common/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
     vendor/lge/msm8610-common/proprietary/lib/libmorpho_panorama_wa_viewer.so:system/lib/libmorpho_panorama_wa_viewer.so \
     vendor/lge/msm8610-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -189,7 +196,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lge/msm8610-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/lge/msm8610-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/msm8610-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/lge/msm8610-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
