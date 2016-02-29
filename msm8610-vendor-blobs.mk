@@ -109,7 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8610-common/proprietary/lib/libchromatix_hi543_default_video.so:system/lib/libchromatix_hi543_default_video.so \
     vendor/lge/msm8610-common/proprietary/lib/libchromatix_hi543_preview.so:system/lib/libchromatix_hi543_preview.so \
     vendor/lge/msm8610-common/proprietary/lib/libchromatix_hi543_snapshot.so:system/lib/libchromatix_hi543_snapshot.so \
-	    vendor/lge/msm8610-common/proprietary/lib/libchromatix_hi841_common.so:system/lib/libchromatix_hi841_common.so \
+    vendor/lge/msm8610-common/proprietary/lib/libchromatix_hi841_common.so:system/lib/libchromatix_hi841_common.so \
     vendor/lge/msm8610-common/proprietary/lib/libchromatix_hi841_default_video.so:system/lib/libchromatix_hi841_default_video.so \
     vendor/lge/msm8610-common/proprietary/lib/libchromatix_hi841_preview.so:system/lib/libchromatix_hi841_preview.so \
     vendor/lge/msm8610-common/proprietary/lib/libchromatix_hi841_snapshot.so:system/lib/libchromatix_hi841_snapshot.so \
