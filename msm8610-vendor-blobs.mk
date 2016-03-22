@@ -212,4 +212,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/lge/msm8610-common/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/lge/msm8610-common/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/lge/msm8610-common/proprietary/bin/sensord:system/bin/sensord
+    vendor/lge/msm8610-common/proprietary/bin/sensorservice:system/bin/sensorservice \
+    vendor/lge/msm8610-common/proprietary/bin/akmd09911:system/bin/akmd09911
