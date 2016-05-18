@@ -127,7 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8610-common/proprietary/lib/libchromatix_imx219_common.so:system/lib/libchromatix_imx219_common.so \
     vendor/lge/msm8610-common/proprietary/lib/libchromatix_imx219_snapshot.so:system/lib/libchromatix_imx219_snapshot.so \
     vendor/lge/msm8610-common/proprietary/lib/libchromatix_imx219_preview.so:system/lib/libchromatix_imx219_preview.so \
-	vendor/lge/msm8610-common/proprietary/lib/libchromatix_imx219_default_video.so:system/lib/libchromatix_imx219_default_video.so \
+    vendor/lge/msm8610-common/proprietary/lib/libchromatix_imx219_default_video.so:system/lib/libchromatix_imx219_default_video.so \
     vendor/lge/msm8610-common/proprietary/lib/libmmcamera_hi707.so:system/lib/libmmcamera_hi707.so \
     vendor/lge/msm8610-common/proprietary/lib/libmmcamera_hi543.so:system/lib/libmmcamera_hi543.so \
     vendor/lge/msm8610-common/proprietary/lib/libmmcamera_hi841.so:system/lib/libmmcamera_hi841.so \
@@ -204,10 +204,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-	vendor/lge/msm8610-common/proprietary/vendor/lib/libimage-jpeg-enc-omx-comp.so:system/vendor/lib/libimage-jpeg-enc-omx-comp.so \
-	vendor/lge/msm8610-common/proprietary/vendor/lib/libimage-omx-common.so:system/vendor/lib/libimage-omx-common.so \
-	vendor/lge/msm8610-common/proprietary/vendor/lib/libmmstillomx.so:system/vendor/lib/libmmstillomx.so \
-	vendor/lge/msm8610-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libimage-jpeg-enc-omx-comp.so:system/vendor/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libimage-omx-common.so:system/vendor/lib/libimage-omx-common.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libmmstillomx.so:system/vendor/lib/libmmstillomx.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/lge/msm8610-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
