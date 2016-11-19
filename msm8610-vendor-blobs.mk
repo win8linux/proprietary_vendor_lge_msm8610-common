@@ -271,4 +271,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8610-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/lge/msm8610-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/lge/msm8610-common/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
+    vendor/lge/msm8610-common/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/lge/msm8610-common/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so
