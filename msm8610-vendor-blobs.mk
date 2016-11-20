@@ -274,4 +274,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/lge/msm8610-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lge/msm8610-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/lge/msm8610-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/lge/msm8610-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so
