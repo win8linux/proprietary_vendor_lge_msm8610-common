@@ -218,7 +218,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/lge/msm8610-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lge/msm8610-common/proprietary/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so:system/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so \
-    vendor/lge/msm8610-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/lge/msm8610-common/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lge/msm8610-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lge/msm8610-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
@@ -243,7 +242,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8610-common/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/lge/msm8610-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/lge/msm8610-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/lge/msm8610-common/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
     vendor/lge/msm8610-common/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/lge/msm8610-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/lge/msm8610-common/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
